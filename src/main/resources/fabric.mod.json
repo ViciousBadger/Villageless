@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "villageless",
+  "version": "${version}",
+
+  "name": "Villageless",
+  "description": "Purges all villages, outposts and woodland mansions from worlds.",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.abadger.villageless.Villageless"
+    ]
+  },
+  "mixins": [
+    "villageless.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+  }
+}
